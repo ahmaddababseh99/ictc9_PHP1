@@ -1,0 +1,145 @@
+body{
+   width: 70vh;
+   margin: 10vh auto;
+   margin-bottom: 0;
+   font-family: 'Fira Sans', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    border: 14px ridge rgba(39, 92, 196, 0.75);
+    padding: 1rem 0;
+}
+ 
+#cvNav ul{
+    list-style-type: none;
+    display: flex;
+    padding-left: 1rem 0;
+}
+
+#cvNav ul li{
+    margin-right: 2rem;
+    font-size: 140%;
+}
+
+#cvNav ul li a{
+    text-decoration: none;
+    color: #000;
+}
+
+#cvNav ul li a :hover{
+    opacity: .7;
+}
+
+#imgContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#BasicInfoWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgContainer h2{
+    order: 1;
+    font-size: 250%;
+}
+
+#imgContainer img{
+    order: 2;
+    border-radius: 50%;
+}
+
+#objectives::first-letter{
+    font-size: 170%;
+}
+
+main{
+    font-size: 1.1rem;
+}
+
+main section{
+    margin-bottom: 4rem;
+}
+
+main section:first-child{
+    margin-top: 4rem;
+}
+
+h3{
+    font-size: 1.7rem;
+    border: 5px outset rgba(39, 92, 196, 0.75);
+    width: 30%;
+    padding-left: 1%;
+}
+
+main section ul{
+    list-style: none;
+    padding: 0;
+}
+
+footer{
+    display: flex;
+    background-color: #484e59;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer * {
+    color: #f8f8f8;
+    padding: 1.5rem .5rem;
+}
+
+@media only screen and(max-width:550px)
+{
+    #cvNav ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #cvNav ul li{
+        margin-bottom: 1rem;
+    }
+
+    #imgContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 3rem;
+    }
+
+    #imgContainer h2{
+        order: 2;
+
+    }
+
+    #imgContainer img{
+        order: 1;
+    }
+
+    h3{
+        text-align: center;
+        width: 100%;
+    }
+
+    #bioSimiC{
+        display: none;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+    }
+}
+
+@media only print {
+    #objectives{
+        display: none;
+    }
+    
+}
