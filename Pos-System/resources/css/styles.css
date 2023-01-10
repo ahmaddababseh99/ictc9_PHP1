@@ -1,0 +1,203 @@
+body {
+    height: 100vh;
+    font-family:sans-serif; 
+    background: -webkit-linear-gradient(to right, #155799, #159957);  
+    background: linear-gradient(to right, #155799, #159957); 
+    color:whitesmoke;
+}
+
+footer {
+    background-color: #222;
+    height: 3.5rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+}
+
+footer * {
+    color: #f8f8f8;
+}
+
+.admin-view #admin-area {
+    min-height: 100vh;
+}
+
+.admin-view .admin-links {
+    background-color: #212529;
+}
+
+.admin-view .admin-links * {
+    background-color: #212529;
+}
+
+.admin-view .admin-links li {
+    color: #fff;
+    border-color: #fff;
+}
+
+.admin-view .admin-links .list-group-item {
+    border-bottom: 1px solid #fff;
+}
+
+
+.admin-view .admin-links li a {
+    display: block;
+    color: #fff;
+    border-color: #fff;
+    text-decoration: #fff;
+    transition: opacity .5s;
+}
+
+.admin-view .admin-links li a:hover {
+    opacity: .7;
+}
+
+
+
+
+h1{
+    text-align: center;
+}
+
+
+form{
+    width:35rem;
+    margin: auto;
+    color:whitesmoke;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(11, 15, 13, 0.582);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    padding: 20px 25px;
+    
+}
+
+input[type=text], input[type=password]{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 15px 18px;
+    box-sizing: border-box;
+  }
+
+button {
+    background-color: #030804;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+    margin: 7px 0;
+    width: 100%;
+    font-size: 18px;
+  }
+
+button:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.headingsContainer{
+    text-align: center;
+}
+
+.headingsContainer p{
+    color: gray;
+}
+.mainContainer{
+    padding: 16px;
+}
+
+
+.subcontainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subcontainer a{
+    font-size: 16px;
+    margin-bottom: 12px;
+}
+  /* Media queries for the responsiveness of the page */
+  @media screen and (max-width: 600px) {
+    form{
+      width: 25rem;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    form{
+      width: 20rem;
+    }
+  }
+body {
+    background-image: url("../img/pos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+
+.order-card {
+  color: #fff;
+}
+
+.bg-c-blue {
+  background: linear-gradient(45deg, #4099ff, #73b4ff);
+}
+
+.bg-c-green {
+  background: linear-gradient(45deg, #2ed8b6, #59e0c5);
+}
+
+.bg-c-yellow {
+  background: linear-gradient(45deg, #ffb64d, #ffcb80);
+}
+.bg-c-pink {
+  background: linear-gradient(45deg, #ff5370, #ff869a);
+}
+.profile-btn{
+  border: 0px;
+  background-color: #212529;
+}
+.profile-btn:hover{
+background-color: #212529;
+}
+
+.card {
+  border-radius: 5px;
+  -webkit-box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  box-shadow: 0 1px 2.94px 0.06px rgba(4, 26, 55, 0.16);
+  border: none;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.card .card-block {
+  padding: 25px;
+}
+
+.order-card i {
+  font-size: 26px;
+}
+
+.f-left {
+  float: left;
+}
+
+.f-right {
+  float: right;
+}
+
+#card{
+  background-color: #678983;
+}
+#add-user {
+  font-size: 35px;
+}
+
+#all-user{
+  font-size: 35px;
+}
